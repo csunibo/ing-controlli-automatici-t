@@ -169,7 +169,7 @@ sistemi tempo **invarianti** $\subset$ sistemi tempo **varianti**
 
 [[CAT_parte2_2022_09_20.pdf#page=32&selection=70,0,70,16|CAT_parte2_2022_09_20, page 32]]
 
-Data una traiettoria $(x(t), u(t)), t \gt 0$, $\forall \Delta \in \mathbb R$ vale che per $x(t_0+\Delta) = x_0$, allora $(x_\Delta(t), U_\Delta(t)) = (x(t-\Delta), u(t-\Delta))$ è una traiettoria.
+Data una traiettoria $(x(t), u(t)), t > 0$, $\forall \Delta \in \mathbb R$ vale che per $x(t_0+\Delta) = x_0$, allora $(x_\Delta(t), U_\Delta(t)) = (x(t-\Delta), u(t-\Delta))$ è una traiettoria.
 
 >[!tip] Non dipendenza dal tempo
 >Si dimostra che un sistema è tempo invariante *se e solo se*, le funzioni $f$ e $h$ **non dipendono esplicitamente dal tempo**.
@@ -204,7 +204,6 @@ $$
 $$
 
 $$
-
 A(t) = \begin{bmatrix}
 	a_{11}(t) & \dots  & a_{1n}(t) \\
 	\vdots    & \ddots & \vdots    \\
@@ -228,8 +227,8 @@ D(t) = \begin{bmatrix}
 	\vdots    & \ddots & \vdots \\
 	d_{p1}(t) & \dots  & d_{pm}
 \end{bmatrix}
-
 $$
+
 $$
 \begin{bmatrix}
 	\dot x_1(t) \\
@@ -427,7 +426,7 @@ $t^q \ne 0$
 
 $\lambda > 0$: diverge comunque
 $\lambda  = 0$: dipende dal valore di $t^q$. Può divergere. Diverge come un polinomio in $t$, non come un esponenziale though.
-$\lambda \lt 0$: gli esponenziali vanno a zero più velocemente dei polinomi. Nella parte iniziale predomina la parte divergente, poi però la funzione va a zero.
+$\lambda < 0$: gli esponenziali vanno a zero più velocemente dei polinomi. Nella parte iniziale predomina la parte divergente, poi però la funzione va a zero.
 
 > [!warning] Occhio al transitorio!
 > Per $lambda < 0$ devo stare attento al transitorio!
@@ -476,7 +475,7 @@ Cosa succede quando supponiamo che esistano **perturbazioni** sullo *stato inizi
 	Uno stato di equilibrio **NON** stabile.
 
 - #### Equilibrio **attrattivo**
-	$\exists \ \delta \gt 0, \quad \forall x_0: ||x_0 - x_e|| \le \delta$ 	allora risulta che $$lim_{t \to \infty}||x(t) - x_e|| = 0$$
+	$\exists \ \delta > 0, \quad \forall x_0: ||x_0 - x_e|| \le \delta$ 	allora risulta che $$lim_{t \to \infty}||x(t) - x_e|| = 0$$
 	osservazioni:
 	1. è $t \to \infty$, quindi posso farmi anche il giro del mondo prima di collassare sull'equilibrio
 	2. esiste **ALMENO** un delta, non per ogni epsilon, ovvero non è detto che io rimanga in un intorno definito

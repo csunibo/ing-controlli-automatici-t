@@ -114,14 +114,14 @@ $$
 Se voglio *buttare via il resto* allora ci metto un circa uguale
 
 $$
-
+\begin{aligned}
 \frac d{dt} \tilde x(t)
  &= A\tilde x(t) + B \tilde u(t) + \text{term. ordine sup.}  \\
  &\approx A \tilde x(t) + B \tilde u(t) \\
 \frac d{dt} \tilde y(t)
  &= C \tilde x(t) + D \tilde u(t) + \text{term. ordine sup.}  \\
  &\approx A \tilde x(t) + B \tilde u(t)
-
+\end{aligned}
 $$
 
 ### Sistema linearizzato
@@ -202,8 +202,6 @@ Grazie ai teoremi visti in precedenza, anche nel sistema non lineare in anello c
 ### Legge di controllo finale
 
 $$
-
 u(t) = u_e + K \cdot \overbrace{(x(t) - x_e)}^{\approx \Delta x} + \tilde v(t) \\
 \approx u_e + K \cdot \Delta x(t) + \tilde v(t)
-
 $$

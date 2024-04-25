@@ -46,7 +46,7 @@ Possiamo aggiungere dei poli in alta frequenza
 
 ### Precisione statica
 > [!warning] Nota: 
-> Se $L(s)$ ha polo in $s=0 \implies e_\infty = 0$, ma questo introduce uno sfasamento di $-90\degree$ 
+> Se $L(s)$ ha polo in $s=0 \implies e_\infty = 0$, ma questo introduce uno sfasamento di $-90^\circ$ 
 
 
 ### Precisione dinamica
@@ -162,7 +162,7 @@ Posso altrimenti mettere un **polo nell'origine**.
 
 > [!question] Perchè non mettere sempre un polo nell'origine?
 > 
-> Perchè mi aggiunge **sempre** uno sfasamento nelle frequenze di $-90\degree$, che quindi poi è difficile compensare per rispettare il margine di fase.
+> Perchè mi aggiunge **sempre** uno sfasamento nelle frequenze di $-90^\circ$, che quindi poi è difficile compensare per rispettare il margine di fase.
 
 ### Sintesi del regolatore dinamico
 

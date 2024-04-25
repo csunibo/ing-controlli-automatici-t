@@ -91,9 +91,10 @@ Ovvero la omega per cui avviene l'intersezione del diagramma di Bode in ampiezza
 > [!tip] Margine di fase
 >
 > $$
+>\begin{aligned}
 > M_f &= arg(L(j\omega_c)) - (-180\deg) \\
 > &= 180\deg + arg(L(j\omega_c))
->
+>\end{aligned}
 > $$
 >
 > Ovvero la "distanza con segno" rispetto ai -180gradi
@@ -126,7 +127,7 @@ Il sistema **retroazionato** è **asintoticamente stabile** (stabilità robusta)
 
 SE E SOLO SE
 
-$\mu \gt 0$ e $M_f \gt 0$
+$\mu > 0$ e $M_f > 0$
 
 > [!warning] ATTENZIONE
 > Do delle condizioni sulla $L$ per avere risultati della $F$. A me interessa la stabilità del sistema **retroazionato**.
@@ -160,7 +161,7 @@ Se andiamo a calcolare l'argomento della $L$ finale, ovvero quella con il ritard
 Quindi il **margine di fase** è un **indice di robustezza rispetto ad eventuali ritardi**
 
 $$
-\tau_{\max} \lt \frac{M_f}{\omega_c}
+\tau_{\max} < \frac{M_f}{\omega_c}
 $$
 
 *Ripassare BIBO stabile, stabilità asintotica*

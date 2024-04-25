@@ -99,10 +99,10 @@ $$
 ### Derivazione nel tempo
 
 $$
-
+\begin{aligned}
 &\mathcal L \left[ \frac d {dt} f(t) \right] = sF(s) - f(0) \\&
 \mathcal L \left[ \frac {d^n} {dt^n} f(t) \right] = s^n F(s) - \sum_{i=1}^n s^{n-i} \frac {d^{i-1}}{dt^{i-1}} f(t)|_{t=0}
-
+\end{aligned}
 $$
 
 *Vedi onenote per dimostrazione*
@@ -120,7 +120,7 @@ $$
 **Ipotesi:**
 Sia $f(t) \in \mathbb R$  una funzione del tempo con
 - trasformata razionale $F(s) = \frac{N(Ss)}{D(s)}$
-- $\text{grado}\{D(s)\} \gt \text{grado}\{N(s)\}$
+- $\text{grado}\{D(s)\} > \text{grado}\{N(s)\}$
 
 **Tesi:**
 $$
@@ -133,7 +133,7 @@ La funzione per $t = 0$ si comporta come $sF(s), s \to \infty$.
 **Ipotesi:**
 Sia $f(t) \in \mathbb R$ una funzione del tempo con
 - trasformata razionale $F(s) = \frac{N(Ss)}{D(s)}$
-- $\text{grado}\{D(s)\} \gt \text{grado}\{N(s)\}$
+- $\text{grado}\{D(s)\} > \text{grado}\{N(s)\}$
 - poli (radici di $D(s)$) nulli o a parte reale negativa
 
 **Tesi:**
